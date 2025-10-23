@@ -29,11 +29,22 @@ x--;
 
 x = 10;
 
+// Addition
 x += 5;
+
+// Subtraction
 x -= 5;
+
+// Multiplication
 x *= 5;
+
+// Division
 x /= 5;
+
+// Modulus
 x %= 5;
+
+// Exponent
 x **= 5;
 
 /*
