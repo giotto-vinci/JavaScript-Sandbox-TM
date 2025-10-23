@@ -2,8 +2,10 @@
 // `var`, `let`, & `const`
 
 let firstName = 'John';
-const lastName = 'Doe';
+const lastName = 'Snow';
 let age = 30;
+
+console.log(firstName, lastName);
 
 console.log(age);
 
@@ -47,6 +49,8 @@ const person = {
 };
 person.name = 'John';
 person.email = 'brad@gmail.com';
+person.address = '121 Englewood Rd.'
+person.age = 50;
 console.log(person);
 
 // Declare multiple values at once
