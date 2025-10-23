@@ -6,6 +6,8 @@ x = 5 + 5;
 x = 5 - 5;
 x = 5 * 5;
 x = 5 / 5;
+
+// Modulus sign gives the remainder
 x = 7 % 5;
 
 // Concatenation
@@ -34,6 +36,8 @@ x /= 5;
 x %= 5;
 x **= 5;
 
+/*
+
 // 3. Comparison Operators
 
 // Equal to (Just the value, not the type)
@@ -53,5 +57,7 @@ x = 10 > 5;
 x = 10 < 5;
 x = 10 <= 5;
 x = 10 >= 5;
+
+*/
 
 console.log(x);
