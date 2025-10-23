@@ -71,4 +71,5 @@ x = 10 >= 5;
 
 */
 
+console.log(parseFloat(x))
 console.log(x);
