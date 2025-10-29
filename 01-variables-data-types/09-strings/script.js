@@ -18,9 +18,6 @@ x = typeof s;
 
 x = s.length;
 
-
-/*
-
 // Access value by key
 x = s[0];
 
@@ -62,7 +59,5 @@ x = s.valueOf();
 
 // split() - returns an array of strings
 x = s.split('');
-
-*/
 
 console.log(x);
