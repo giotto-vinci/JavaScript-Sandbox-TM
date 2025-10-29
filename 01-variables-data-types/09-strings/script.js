@@ -12,11 +12,14 @@ x = `Hello, my name is ${name} and I am ${age} years old`;
 // String Properties and Methods
 
 // Creating a "string object" (JS does this automatically when using a propery or method on a primitive string)
-const s = new String('Hello World');
+const s = new String('Molon Levay');
 
 x = typeof s;
 
 x = s.length;
+
+
+/*
 
 // Access value by key
 x = s[0];
@@ -59,5 +62,7 @@ x = s.valueOf();
 
 // split() - returns an array of strings
 x = s.split('');
+
+*/
 
 console.log(x);
