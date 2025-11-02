@@ -1,5 +1,7 @@
 let x;
 
+/*
+
 // Square root
 x = Math.sqrt(9);
 
@@ -20,6 +22,8 @@ x = Math.pow(2, 3);
 
 // Minimum number
 x = Math.min(4, 5, 3);
+
+*/
 
 // Maximum number
 x = Math.max(4, 5, 3);
