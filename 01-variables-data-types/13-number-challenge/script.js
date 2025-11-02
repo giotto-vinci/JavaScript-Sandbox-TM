@@ -1,5 +1,5 @@
-const x = Math.floor(Math.random() * 100 + 1);
-const y = Math.floor(Math.random() * 50 + 1);
+const x = Math.floor(Math.random() * 1000 + 1);
+const y = Math.floor(Math.random() * 100 + 1);
 
 // Get the sum
 const sum = x + y;
@@ -8,7 +8,7 @@ console.log(sumOutput);
 
 // Get the difference
 const diff = x - y;
-const diffOutput = `${x} - ${y} = ${diff}`;
+const diffOutput = `${x} + ${y} = ${diff}`;
 console.log(diffOutput);
 
 // Get the product
