@@ -1,6 +1,5 @@
 let x;
 
-
 // Square root
 x = Math.sqrt(9);
 
