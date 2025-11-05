@@ -26,6 +26,7 @@ fruits[3] = 'strawberry';
 // Using the length as the index will always add on the the end
 fruits[fruits.length] = 'blueberry';
 fruits[fruits.length] = 'peach';
+fruits[fruits.length] = 'pomegranate';
 
 x = fruits;
 
