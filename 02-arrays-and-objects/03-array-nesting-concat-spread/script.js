@@ -14,7 +14,7 @@ x = fruits[3][1];
 // Create a new variable and nest both arrays
 const allFruits = [fruits, berries];
 
-x = allFruits[1][2];
+x = allFruits[0][2];
 
 // concat() - Concatenate arrays
 x = fruits.concat(berries);
