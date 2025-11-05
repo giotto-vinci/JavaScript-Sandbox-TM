@@ -5,6 +5,8 @@ let d = new Date();
 
 x = d.toString();
 
+/*
+
 x = d.getTime();
 x = d.valueOf();
 
@@ -35,6 +37,8 @@ x = Intl.DateTimeFormat('default').format(d);
 x = Intl.DateTimeFormat('default', { month: 'long' }).format(d);
 
 x = d.toLocaleString('default', { month: 'short' });
+
+*/
 
 x = d.toLocaleString('default', {
   weekday: 'long',
