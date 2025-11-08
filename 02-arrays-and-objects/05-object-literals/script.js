@@ -2,15 +2,15 @@ let x;
 
 // Creating an object
 const person = {
-  name: 'John Doe',
-  age: 30,
+  name: 'James Howlett',
+  age: 120,
   isAdmin: true,
   address: {
     street: '123 Main st',
     city: 'Boston',
     state: 'MA',
   },
-  hobbies: ['music', 'sports'],
+  hobbies: ['music', 'sports', 'cigars'],
 };
 
 // Accessing object properties
@@ -20,7 +20,7 @@ x = person.address.state;
 x = person.hobbies[0];
 
 // Updating properties
-person.name = 'Jane Doe';
+person.name = 'Jean Grey';
 person['isAdmin'] = false;
 
 // Deleting properties
@@ -38,8 +38,8 @@ person.greet();
 
 // Keys with multiple words
 const person2 = {
-  'first name': 'Brad',
-  'last name': 'Traversy',
+  'first name': 'Roderick',
+  'last name': 'Fitzgerald',
 };
 
 x = person2['first name'];
