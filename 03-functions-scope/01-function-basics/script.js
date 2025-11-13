@@ -12,7 +12,7 @@ function add(num1, num2) {
 }
 
 // Invoke function with arguments
-add(5, 10);
+add(3, 6);
 
 // Parameters vs. Arguments
 // Parameters are the names of the variables that are used to pass data into a function.
@@ -26,6 +26,6 @@ function subtract(num1, num2) {
 }
 
 // Assign the returned value to a variable
-const result = subtract(10, 2);
+const result = subtract(30, 7);
 
 console.log(result, subtract(20, 5));
