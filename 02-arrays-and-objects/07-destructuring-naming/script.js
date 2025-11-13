@@ -27,7 +27,9 @@ const {
   user: { name }, // destructuring multiple levels
 } = todo;
 
-console.log(todoId);
+console.log(title);
+
+/*
 
 // Destructuring arrays & using the rest/spread operator
 const numbers = [23, 67, 33, 49, 52];
@@ -35,3 +37,5 @@ const numbers = [23, 67, 33, 49, 52];
 const [first, second, ...rest] = numbers;
 
 console.log(first, second, rest);
+
+*/
