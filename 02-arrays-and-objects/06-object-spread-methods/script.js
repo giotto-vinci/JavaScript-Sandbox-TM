@@ -32,11 +32,16 @@ const obj4 = Object.assign({}, obj1, obj2);
 // Array of objects
 const todos = [
   { id: 1, name: 'Buy Milk' },
-  { id: 2, name: 'Pickup kids from school' },
-  { id: 3, name: 'Take out trash' },
+  { id: 2, name: 'Pickup dog food.' },
+  { id: 3, name: 'Do yard work.' },
+  { id: 4, name: 'Make dinner.' },
+  { id: 5, name: 'Take out trash.' },
+  { id: 6, name: 'Put Roslyn to bed.' },
 ];
 
-x = todos[0].name;
+x = todos[5];
+
+/*
 
 // Get array of object keys
 x = Object.keys(todo);
@@ -52,5 +57,7 @@ x = Object.entries(todo);
 
 // Check if object has a property
 x = todo.hasOwnProperty('age');
+
+*/
 
 console.log(x);
