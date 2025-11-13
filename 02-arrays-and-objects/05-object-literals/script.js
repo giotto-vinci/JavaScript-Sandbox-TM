@@ -15,9 +15,14 @@ const person = {
 
 // Accessing object properties
 x = person.name; // Dot notation
+
+/*
+
 x = person['age']; // Bracket notation
 x = person.address.state;
 x = person.hobbies[0];
+
+*/
 
 // Updating properties
 person.name = 'Jean Grey';
@@ -42,6 +47,6 @@ const person2 = {
   'last name': 'Fitzgerald',
 };
 
-x = person2['first name'];
+//x = person2['first name'];
 
 console.log(x);
