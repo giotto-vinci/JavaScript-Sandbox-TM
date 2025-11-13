@@ -1,8 +1,26 @@
 // Step 1
 const library = [
   {
-    title: 'The Road Ahead',
-    author: 'Bill Gates',
+    title: 'The Road Less Traveled',
+    author: 'M. Scott Peck M.D.',
+    status: {
+      own: true,
+      reading: false,
+      read: true,
+    },
+  },
+  {
+    title: 'The Divided Self',
+    author: 'R. D. Lang',
+    status: {
+      own: true,
+      reading: false,
+      read: true,
+    },
+  },
+  {
+    title: 'Principia',
+    author: 'Isaac Newton',
     status: {
       own: true,
       reading: false,
@@ -10,8 +28,8 @@ const library = [
     },
   },
   {
-    title: 'Steve Jobs',
-    author: 'Walter Isaacson',
+    title: 'Technopoly',
+    author: 'Neil Postman',
     status: {
       own: true,
       reading: false,
@@ -19,11 +37,11 @@ const library = [
     },
   },
   {
-    title: 'Mockingjay',
-    author: 'Suzanne Collins',
+    title: 'The Mask of Sanity',
+    author: 'Harvey M. Cleckley',
     status: {
       own: true,
-      reading: false,
+      reading: true,
       read: false,
     },
   },
