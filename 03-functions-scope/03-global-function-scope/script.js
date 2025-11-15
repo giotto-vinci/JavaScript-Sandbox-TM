@@ -5,6 +5,8 @@
 // Global scope variable
 const x = 100;
 
+const y = 777;
+
 console.log(x, 'in global');
 
 function run() {
@@ -28,6 +30,6 @@ function add() {
 }
 
 // Can not access a function scoped variable in global scope
-console.log(y);
+console.log(x, y, 'in global');
 
 add();

@@ -30,14 +30,14 @@ function loginUser(user) {
 
 const user = {
   id: 1,
-  name: 'John',
+  name: 'Logan',
 };
 
 console.log(loginUser(user));
 console.log(
   loginUser({
     id: 2,
-    name: 'Sara',
+    name: 'Aaliyah',
   })
 );
 
@@ -50,4 +50,4 @@ function getRandom(arr) {
   console.log(item);
 }
 
-getRandom([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+getRandom([1, 2, 3.1, 4.5, 50.4, 68.7, 76.9, 82.3, 94.2, 142.3]);
