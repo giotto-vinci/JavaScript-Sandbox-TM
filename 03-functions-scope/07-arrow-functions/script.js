@@ -14,9 +14,19 @@ const subtract = (a, b) => a - b;
 // Can leave off () with a single param
 const double = (a) => a * 2;
 
+console.log(double(5));
+
+// This would look like; Changes made to not comment out double
+function triple(c) {
+ return c * 3;
+}
+
+console.log (triple(3));
+
+
 // Returning an object
 const createObj = () => ({
-  name: 'Brad',
+  name: 'Vash',
 });
 
 const numbers = [1, 2, 3, 4, 5];

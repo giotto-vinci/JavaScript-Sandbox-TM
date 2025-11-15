@@ -11,6 +11,8 @@
   console.log('Hello ' + name);
 })('Shawn');
 
+
+// **Advanced topic; Can cause infinite loops **
 // Named IIFE (Can only be called recursively)
 (function hello() {
   console.log('Hello');

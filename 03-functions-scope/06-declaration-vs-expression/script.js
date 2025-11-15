@@ -4,11 +4,11 @@ function addDollarSign(value) {
 }
 
 // When using declarations, you can invoke the function before the declaration. With expressions, you can not
-console.log(addDollarSign(100));
+console.log(addDollarSign(10000));
 
 // Function Expression
 const addPlusSign = function (value) {
   return '+' + value;
 };
 
-console.log(addPlusSign(200));
+console.log(addPlusSign(300));

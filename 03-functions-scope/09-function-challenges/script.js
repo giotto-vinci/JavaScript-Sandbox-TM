@@ -28,4 +28,4 @@ console.log(minMax([2, 31, 4, 5, 6]));
   const output = `The area of a rectangle with a length of ${length} and a width of ${width} is ${area}.`;
 
   console.log(output);
-})(20, 10);
+})(18, 24);
