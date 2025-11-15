@@ -4,7 +4,7 @@
 //   return celsius;
 // }
 
-const getCelsius = (f) => ((f - 32) * 5) / 9;
+const getCelsius = (f) => Math.round(((f - 32) * 5) / 9);
 
 console.log(`The temp is ${getCelsius(100)} \xB0C `);
 
