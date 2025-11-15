@@ -1,4 +1,4 @@
-const d = new Date(2022, 1, 10, 19, 0, 0);
+const d = new Date(2025, 11, 14, 2, 0, 0);
 const month = d.getMonth();
 const hour = d.getHours();
 
