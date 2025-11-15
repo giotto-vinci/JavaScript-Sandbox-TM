@@ -8,7 +8,7 @@ if (false) {
 }
 
 // Evaluation expressions
-const x = 10;
+const x = 7;
 const y = 5;
 
 if (x >= y) {
@@ -27,7 +27,7 @@ if (x !== y) {
   console.log(`${z} is 20`);
 }
 
-console.log(z); // Throw error
+// console.log(z); // Throw error
 
 // Shorthand If/Else
 if (x >= y)
