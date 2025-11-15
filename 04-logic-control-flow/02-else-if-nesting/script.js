@@ -1,4 +1,4 @@
-const d = new Date(10, 30, 2022, 6, 0, 0);
+const d = new Date(11, 14, 2025, 7, 0, 0);
 const hour = d.getHours();
 
 if (hour < 12) {
