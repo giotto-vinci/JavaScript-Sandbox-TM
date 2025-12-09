@@ -33,6 +33,8 @@ const companyInfo = companies.map((company) => {
   };
 });
 
+// console.log(companyInfo);
+
 // Create an array of objects with the name and the length of each company in years
 const companyYears = companies.map((company) => {
   return {
