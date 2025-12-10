@@ -1,4 +1,4 @@
-const socials = ['Twitter', 'LinkedIn', 'Facebook', 'Instagram'];
+const socials = ['Twitter', 'LinkedIn', 'Odyssey', 'Instagram', 'Rumble'];
 
 // View prototype chain
 console.log(socials.__proto__);
@@ -24,7 +24,7 @@ socials.forEach(logSocials);
 // Array of objects
 const socialObjs = [
   { name: 'Twitter', url: 'https://twitter.com' },
-  { name: 'Facebook', url: 'https://facebook.com' },
+  { name: 'Odyssey', url: 'https://odyssey.com' },
   { name: 'Linkedin', url: 'https://linkedin.com' },
   { name: 'Instagram', url: 'https://instagram.com' },
 ];
