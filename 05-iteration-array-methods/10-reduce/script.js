@@ -23,8 +23,20 @@ const cart = [
   { id: 3, name: 'Product 3', price: 200 },
 ];
 
+const total = cart.reduce(function (accumulator, product) {
+  return accumulator + product.price;
+}, 0);
+
+const total2 = cart.reduce((acc, product) => acc + product.price, 0);
+
+console.log(total2);
+
+/*
+
 const total = cart.reduce(function (acc, product) {
   return acc + product.price;
 }, 0);
 
 console.log(total);
+
+*/
