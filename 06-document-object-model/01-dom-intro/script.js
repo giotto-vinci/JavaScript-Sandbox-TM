@@ -12,7 +12,7 @@ console.log(document.links[0]);
 // document.body.innerHTML = '<h1>Hello from body</h1>';
 
 // The document object has a ton of methods. One is `document.write()`, which will write something to the document
-document.write('Hello from JS');
+document.write('Hello from JS'); // This gives a violation message in developer tools; Adds load time to the html doc.
 
 // We also have methods to select elements more directly
 document.getElementById('main').innerHTML = '<h1>Hello from main</h1>';
