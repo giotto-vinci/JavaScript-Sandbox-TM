@@ -19,7 +19,7 @@ title.textContent = 'Hello World';
 title.innerText = 'Hello Again';
 title.innerHTML = '<strong>Shopping List</strong>';
 
-// Change styles
+// Change styles; Use when you want your interface to be dynamic.
 title.style.color = 'red';
 title.style.backgroundColor = 'black';
 title.style.padding = '10px';

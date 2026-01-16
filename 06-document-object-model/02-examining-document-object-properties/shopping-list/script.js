@@ -1,6 +1,6 @@
 let output;
 
-// document.all is deprecated
+// document.all is deprecated; not a convenient way to access these elements.
 output = document.all;
 output = document.all[11];
 output = document.all.length;
@@ -40,7 +40,11 @@ document.forms[0].id = 'new-id';
 // output = document.links[0].href = 'https://facebook.com';
 // output = document.links[0].id = 'google-link';
 // output = document.links[0].className = 'google-class';
-// output = document.links[0].classList;
+ // output = document.links[0].classList;
+
+ console.log(output);
+
+ /*
 
 // Get all images
 output = document.images;
@@ -52,3 +56,5 @@ const forms = Array.from(document.forms);
 forms.forEach((form) => console.log(form));
 
 console.log(output);
+
+*/
