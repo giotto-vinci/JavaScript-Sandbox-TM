@@ -25,7 +25,7 @@ title.style.backgroundColor = 'black';
 title.style.padding = '10px';
 title.style.borderRadius = '10px';
 
-// document.querySelector()
+// document.querySelector() 
 
 // Use any CSS selector
 console.log(document.querySelector('h1'));
