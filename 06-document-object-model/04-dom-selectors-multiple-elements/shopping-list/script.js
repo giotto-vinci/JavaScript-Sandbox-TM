@@ -1,4 +1,4 @@
-// querySelectorAll()
+// querySelectorAll() *Use for most cases*
 // Returns a NodeList
 
 const listItems = document.querySelectorAll('.item');
